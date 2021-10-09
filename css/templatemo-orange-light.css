@@ -1,0 +1,193 @@
+/*
+
+Easy Profile Template
+http://www.templatemo.com/tm-467-easy-profile
+
+*/
+
+html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family:'Proxima';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size:40px;}
+h2 {font-size:36px;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+  padding-bottom: 14px;
+}
+
+
+
+
+
+.accent {
+  font-family: 'Proxima Bold';
+  line-height: 14px;
+  color: #ef9273;
+}
+
+
+a:link {
+  color: #d48166;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d48166;
+  font-size: 20px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+.bold {
+	font-weight: bold;
+}
+
+.tm-border {
+	border: 5px solid #fff;
+}
+
+
+
+.tm-title {
+	color: #ef9273;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  colour: #000000
+}
+.textbox,
+.listbox {
+  padding: 40px;
+  min-height: 330px;
+}
+
+.textbox,
+.listbox {
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url(../fonts/ProximaNova-Regular.otf);
+
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+
+}
+
+
+/* header section */
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+header img {
+  display: inline-block !important;
+}
+header h2 {
+  padding-top: 40px;
+}
+header hr {
+  border-color: #ef9273;
+  width: 100px;
+}
+
+/* textbox section */
+.textbox {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+  color: #000000
+}
+
+
+
+
+/* footer section */
+footer {
+  color: #000000;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+/* social icon section */
+.social-icons {
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+}
+.social-icons li a {
+  background: #ef9273;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+.social-icons li a:hover {
+  background: #202020;
+  color: #fff;
+}
+
+
+
+@media ( max-width: 360px ) {
+  header h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+
+}
