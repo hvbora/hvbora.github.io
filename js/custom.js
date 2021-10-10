@@ -1,10 +1,5 @@
 // templatemo 467 easy profile
 
-// PRELOADER
-
-$(window).load(function(){
-    $('.preloader').delay(1000).fadeOut("slow"); // set duration in brackets
-});
 
 // HOME BACKGROUND SLIDESHOW
 $(function(){
@@ -16,3 +11,17 @@ $(function(){
      ], 	{duration: 7200, fade: 2300});
 		});
 })
+
+
+
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginRight = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight = "0";
+}
