@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-467-easy-profile
 html, body {
   margin:0;border:0;padding:0;
   font-size:16px;
-  font-family:Verdana, 'Proxima', Helvetica, Arial;
+  font-family: 'Proxima', Helvetica, Arial, Verdana;
   overflow-x:hidden;
   position: relative;
   vertical-align: baseline;
@@ -111,7 +111,7 @@ h2 {
 
 
 .accent {
-  font-family: Verdana, "Proxima Bold", Helvetica, Arial;
+  font-family: "Proxima Bold", Helvetica, Arial;
   line-height: 20px;
   color: #ef9273;
   padding-bottom: 3px;
