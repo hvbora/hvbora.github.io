@@ -1,0 +1,417 @@
+
+% --- Set document class and font size ---
+
+\documentclass[a4paper, 11pt]{article}
+
+
+
+
+
+% --- Package imports ---
+
+\usepackage{hyperref, enumitem, longtable, fontawesome, amsmath, array, graphicx}
+
+
+
+
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=0.7in, right=0.8in, bottom=.8in, top=0.8in, headsep=0in, footskip=.2in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.2}
+
+% --- Page formatting settings ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=MidnightBlue, urlcolor=MidnightBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% Define font size and color for section headings
+\newcommand{\headingfont}{\Large\color{Peach}}
+
+
+
+
+
+
+
+
+
+
+
+% --- CV section settings ---
+
+% Note: each section of this table (Education, Awards, Publications etc.) is 
+% stored in a two-column table. The left-hand column is narrow (1 inch) and is 
+% meant to store dates. The right-hand column is wide (5.2 inches) and stores 
+% the main text.  Sections in which each entry might have multiple lines 
+% (e.g., Education) are stored in a 'SectionTable' environment). Sections in 
+% which each entry might just have one line are stored in a 'SectionTableSingleSpace'
+% environment. The only difference between the two environments is the line 
+% spacing between each entry. Both environments take one argument, which is the
+% title of the section. See main document for how these environments are used.
+
+% Define settings for left-hand column in which dates are printed
+\newcolumntype{R}{>{\raggedleft}p{1in}}
+
+% Define 'SectionTable' environment
+\newenvironment{SectionTable}[1]{
+	\renewcommand*{\arraystretch}{1.7}
+	\setlength{\tabcolsep}{10pt}
+	\begin{longtable}{Rp{5.2in}} & #1 \\}
+{\end{longtable}\vspace{-.3cm}}
+
+% Define 'SectionTableSingleSpace' environment
+\newenvironment{SectionTableSingleSpace}[1]{
+	\renewcommand*{\arraystretch}{1.2}
+	\setlength{\tabcolsep}{10pt}
+	\begin{longtable}{Rp{5.2in}} & #1 \\[0.6em]}
+{\end{longtable}\vspace{-.3cm}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% --- Document starts here ---
+
+\begin{document}
+
+% --- Name and contact information ---
+
+\begin{SectionTable}{\Huge \color{Peach} Himanshu Bora}
+& 
+\faMapMarker \ \ DHSK College $\;\boldsymbol{\cdot}\;$ Dibrugarh, Assam, India \newline
+\faEnvelope \  \textit{hvbora@gmail.com} \ \ \ \  \faPhone \ +91 84866 09233 \\
+%\faGlobe \ www.website.com %
+&
+{\textbf {Personal Information}} \newline
+Date of birth \ \ : \ December 21, 1996 \newline
+Sex \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ : \ Male \newline
+Nationality: \ \ \ : \ Indian \newline
+Languages: \ \ \ \ : \ English (\textit{Full Professional Working Proficiency}) \newline 
+{\color{white} .........................} \ Assamese (\textit{Native}) $\;\boldsymbol{\cdot}\;$ Bengali $\;\boldsymbol{\cdot}\;$ Hindi 
+\end{SectionTable}
+
+
+
+
+
+% --- Section: Research interests ---
+
+%\begin{SectionTable}{\headingfont Research interests}
+%& Your favorite topic, another topic, another topic, another topic, another topic
+%\end{SectionTable} 
+
+
+
+
+
+
+% --- Section: Education ---
+\begin{SectionTable}{\headingfont Education}
+
+2015 -- 2020 & 
+\textbf{Integrated M.Sc. in Physics} \newline
+Dibrugarh University -- Dibrugarh, Assam, India \newline 
+Specialization: High Energy Physics \newline
+CGPA: 8.27/10.00 \\
+
+
+2012 -- 2015 & 
+\textbf{HSSLC (12th Standard)} \ Stream: Science \newline
+Board: Assam Higher Secondary Education Council (AHSEC) \newline 
+Sarupathar H.S. School -- Sarupathar, Assam, India \newline
+Precentage: 90.40\% (99.9+ percentile) \\
+
+2012 &
+\textbf{HSLC (10th Standard)} \newline
+Board: Board of Secondary Education, Assam (SEBA) \newline 
+Dayanand Vidya Niketan -- Sarupathar, Assam, India \newline
+Precentage: 90.40\% (99.9+ percentile) \\
+
+% --- Un-comment the next few lines if you want to include some courses you've taken ---
+
+%& \textbf{Selected coursework}
+%\begin{itemize}[itemsep=0pt, leftmargin=*]
+%\item \textit{Statistics}: Asymptotic statistics, Mathematical statistics, Functional data analysis, High-dimensional statistics, Information theory
+%\item \textit{Mathematics}: Measure theory, Functional analysis, Measure-theoretic probability %with martingales
+%\end{itemize}
+\end{SectionTable}
+
+
+
+
+
+
+% --- Section: Professional Experience ---
+
+\begin{SectionTable}{\headingfont Professional Expereince}
+
+November 2021 -- April 2022 & 
+\textbf{Lecturer} (\textit{on contract}) \newline
+Department of Physics\newline
+Dibrugarh Hanumanbax Surajmall Kanoi College -- Dibrugarh, Assam, India  \\
+\end{SectionTable}
+
+
+
+
+
+
+% --- Section: Research experience ---
+
+\begin{SectionTable}{\headingfont Research experience}
+December 2020 \newline -- July 2021 &
+Dibrugarh University, Dibrugarh, India \newline
+\textbf{Topic:} Geometrothermodynamics of CR-BTZ Black Hole \newline
+\textbf{Guide:} Dr. Prabwal Jyoti Phukon, Dibrugarh University, Dibrugarh, India  \\
+
+June 2017 \newline -- August 2017 &
+Bharathiar University, Coimbatore, India under FAST-SF program \newline
+\textbf{Title:} A Transformation Method for Construction of Exactly Solvable Potentials \newline
+\textbf{Guide:} Prof. S. Saravanan, Bharathiar University, Coimbatore, India
+\\
+\end{SectionTable}
+
+
+
+
+
+% --- Section: Publications ---
+
+%\begin{SectionTable}{\headingfont Publications} 
+%2021 & 
+%\textbf{Title of your most recent research paper} \newline
+%First author, second author, third author, fourth author. \newline
+%\textit{Journal of something or the other}
+%\href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{DOI: }) \\
+
+%\end{SectionTable}
+
+
+
+
+
+
+% --- Section: Awards, scholarships, etc ---
+
+\begin{SectionTable}{\headingfont Honors, Awards and Scholarships}
+June 2021 & 
+Awarded \textbf{INSPIRE Fellowship 2020} provisionally for doctoral research by Department of Science and Technology, Government of India \textit{(provisional award not availed)}
+ \\
+
+May 2021 &
+Awarded \textbf{Junior Research Fellowship} by Council of Scientific and
+Industrial Research, India through \textbf{Joint CSIR-UGC NET Examination, June 2020}
+(held in November 2020), \textit{All India Rank-149 (99.51 percentile)} \\
+
+May 2021 &
+Obtained eligibility for \textbf{Lectureship / Assistant Professor} in Physical Sciences through \textbf{Joint CSIR-UGC NET Examination, June 2020}
+(held in November 2020), \textit{All India Rank-149 (99.51 percentile)} \\
+
+February 2020 &
+Qualified \textbf{Graduate Aptitude Test in Engineering-2020 (GATE-2020)} in Physics organised jointly by IISc/IITs (held in February 2020) \\
+
+2017 &
+Awarded \textbf{Focus Area Science Technology Summer Fellowship} jointly by Indian Academy of Sciences (Bengaluru); Indian National Science Academy (New Delhi) and The National Academy of Sciences (Prayagraj) \\
+
+2015-2020 (\textit{duration})&
+Awarded \textbf{INSPIRE-SHE Scholarship} by Department of Science and Technology, Government of India (\textit{awarded to top 1\% students in India in 10+2, pursuing basic sciences}) \\
+
+2012 &
+Awarded \textbf{Anundoram Borooah Award-2012} with distinction by Government of Assam (\textit{awarded to First Division holders in HSLC Examination, 2012 conducted by SEBA, Assam})
+
+\end{SectionTableSingleSpace}
+
+
+
+
+
+
+
+
+
+
+% --- Section: Conferences, Workshops and schools, etc ---
+
+\begin{SectionTable}{\headingfont Schools, Workshops and Conferences Attended}
+October 21 \newline -- 22, 2021 & 
+Online Workshop on High Performance Computing in Engineering by Indian Institute of Technology, Kharagpur and Ansys
+ \\
+
+September 20 \newline -- 23, 2021 & 
+Online Workshop on High Performance Computing and AI for Computational Biology by Indian Institute of Technology, Kharagpur and Tezpur University, Tezpur
+ \\
+
+September 20 \newline -- 23, 2021 & 
+Online Workshop on High Performance Computing for Astrophysics and Astronomy by Square Kilometer Array-India Consortium and Indian Institute of Technology, Kharagpur
+ \\
+
+May 10 \newline -- June 11, 2021 &
+Introductory Summer School in Astronomy and Astrophysics by IUCAA, Pune, India (\textit{online mode})
+\\
+
+August 17 \newline -- 31, 2021 &
+Workshop on Particle Physics, 2020 by Assam Don Bosco University, Guwahati, Assam, India (\textit{online mode})
+\\
+
+January 7 \newline -- 11, 2019 &
+Workshop on Celestial Mechanics and Dynamical Astronomy by Central University of Rajasthan, Ajmer, Rajasthan, India
+\\
+
+October 7 \newline -- 13, 2018 &
+Workshop on Gravitation and Gravitational Waves by Assam University, Silchar, Assam, India
+\\
+
+February 22 \newline -- March 3, 2017 &
+ARIES Training School in Observational Astronomy-2017 by Aryabhatta Research Institute of Observational Sciences, Nainital, India
+\\
+
+November 2 \newline -- 4, 2016 &
+National Workshop on Gravitational Wave Astronomy by Dibrugarh University, Dibrugarh, Assam, India
+\\
+
+June 21 \newline -- July 12, 2016 &
+CCSU Astronomy and Astrophysics Summer School-2016 by Cotton College State University, Guwahati, Assam, India
+\\
+
+November 2 \newline -- 5, 2021 &
+National Conference on Current Issues in Cosmology, Astrophysics and High Energy Physics by Dibrugarh University, Dibrugarh, Assam,India
+\\
+\end{SectionTableSingleSpace}
+
+
+
+
+
+
+% --- Section: Talks and tutorials ---
+
+%\begin{SectionTable}{\headingfont Talks and tutorials}
+%Month Year &
+%Title of your most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+
+%Month Year &
+%Title of your second most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+
+%Month Year &
+%Title of your third most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} %\\
+%\end{SectionTable}
+
+
+
+
+% --- Section: Teaching experience ---
+
+%\begin{SectionTable}{\headingfont Teaching experience}
+%Fall 2020 & 
+%\textbf{Teaching assistant, STAT 123: Course name here (University)} \newline
+%Topics and description of your responsibilities. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \newline
+%\textit{Average student rating: X/5.} \\
+%\end{SectionTable}
+
+
+
+
+
+
+
+
+
+
+
+% --- Section: Mentorship and service ---
+
+%\begin{SectionTable}{\headingfont Mentorship and service}
+%Month Year -- Present &
+%\textbf{Title of organization you are in (Name of your role)} \newline
+%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum. \\
+
+
+
+
+
+
+% --- Section: Professional society memberships ---
+
+%\begin{SectionTable}{\headingfont Professional memberships}
+%Year -- Present &
+%Name of professional society \newline
+%\textit{Short description or conferences you attended.} \\
+
+%\end{SectionTable}
+
+
+
+
+
+
+% --- Section: Technical Skills ---
+\begin{SectionTable}{\headingfont Technical skills}
+& \textbf{Languages} \newline
+Proficient in: Python \newline
+Familiar with: C, C++, Fortran, HTML \\
+
+& \textbf{Softwares} \newline
+Document Processing: \LaTeX \newline
+Operating Systems: UNIX, Windows \newline
+Others: Git, Wolfram Mathematica \\
+
+\end{SectionTable}
+
+
+
+
+% --- Section: Other interests/hobbies ---
+
+\begin{SectionTable}{\headingfont Other Qualifications}
+& B.A. in Fine Arts from Sarbabharatiya Sangeet-O-Sanskriti Parishad, Kolkata,2014
+\end{SectionTable}
+
+
+
+\begin{SectionTable}{\headingfont Other Interests}
+& Quizzing: Founder and Joint Co-ordinator of Dibrugarh University Debate and Quiz Forum \newline Represented Dibrugarh University in 50+ quiz competitions at university level, district level and state level \newline
+Sports: Badminton \newline
+Others: Fine Art and Graphics Design
+\end{SectionTable}
+
+
+
+
+
+\begin{SectionTable}{\headingfont References}
+& To be produced on demend
+\end{SectionTable}
+
+% --- End of CV! ---
+
+\end{document}
+
+
+
+
+
