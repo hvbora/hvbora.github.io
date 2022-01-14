@@ -4,6 +4,17 @@ Easy Profile Template
 http://www.templatemo.com/tm-467-easy-profile
 
 */
+@font-face {
+  font-family: 'Proxima';
+  src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+
+
 
 html, body {
   margin:0;border:0;padding:0;
@@ -106,9 +117,7 @@ h2 {
 
 
 
-
-
-
+/* text formatting */
 
 .accent {
   font-family: "Proxima Bold", Helvetica, Arial;
@@ -116,6 +125,29 @@ h2 {
   color: #ef9273;
   padding-bottom: 3px;
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.tm-border {
+	border: 5px solid #fff;
+}
+
+
+
+.tm-title {
+	color: #ef9273;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  colour: #000000
+}
+
 
 
 a:link {
@@ -145,39 +177,21 @@ a:active {
 
 
 
-.bold {
-	font-weight: bold;
-}
-
-.tm-border {
-	border: 5px solid #fff;
-}
 
 
 
-.tm-title {
-	color: #ef9273;
-}
 
-.white {
-  color: #fff;
-}
 
-.black {
-  colour: #000000
-}
 
-@font-face {
-  font-family: 'Proxima';
-  src: url(../fonts/ProximaNova-Regular.otf);
 
-}
 
-@font-face {
-    font-family: 'Proxima Bold';
-    src: url(../fonts/ProximaNova-Bold.otf);
 
-}
+
+
+
+
+
+
 
 
 /* header section */
@@ -200,48 +214,67 @@ header hr {
   width: 100px;
 }
 
-/* textbox section */
+
+
+
+
+
+
+
+
+
+
+/* content cards */
 
 .textbox {
+  border-radius: 5px;
   padding: 40px;
   min-height: 330px;
-}
-
-.textbox{
   margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 25px rgba(0,0,25,0.15);
+  color: #000000;
 }
 
+
+/* contains images/logos */
 .imagebox{
   padding-bottom: 10px;
   padding-right: 10px;
   padding-top: 10px;
   margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.0);
+  color: #000000;
 }
 
+/* contains texts */
 .transparentbox{
   padding-bottom: 10px;
   padding-right: 10px;
   padding-top: 1px;
   margin-bottom: 10px;
-}
-
-.textbox {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
-  color: #000000;
-}
-
-/* imagebox section */
-.imagebox {
   background: rgba(0, 0, 0, 0.0);
   color: #000000;
 }
 
-/* transparentbox section */
-.transparentbox {
-  background: rgba(0, 0, 0, 0.0);
-  color: #000000;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer section */
 footer {
