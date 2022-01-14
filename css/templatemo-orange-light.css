@@ -1,9 +1,4 @@
-/*
 
-Easy Profile Template
-http://www.templatemo.com/tm-467-easy-profile
-
-*/
 @font-face {
   font-family: 'Proxima';
   src: url(../fonts/ProximaNova-Regular.otf);
@@ -56,8 +51,10 @@ h2 {
   z-index: 2; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: rgba(255,255,255,0.96);
+  background-color: rgba(255,255,255,0.5);
   box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -93,8 +90,11 @@ h2 {
   padding: 10px 15px;
   margin: 30px;
   border: none;
-  background: rgba(255, 255, 255, 0.94);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
@@ -227,12 +227,14 @@ header hr {
 /* content cards */
 
 .textbox {
-  border-radius: 5px;
+  border-radius: 11px;
   padding: 40px;
   min-height: 330px;
-  margin-top: 20px;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0px 0px 25px rgba(0,0,25,0.15);
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 3px 3px 23px rgba(0,0,25,0.20);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   color: #000000;
 }
 
@@ -314,6 +316,9 @@ footer {
   background: #202020;
   color: #fff;
 }
+
+
+
 
 
 
