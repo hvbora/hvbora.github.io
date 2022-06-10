@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/hb/Documents/hvbora.github.io/documents/hb_cv.tex
-(/home/hb/Documents/hvbora.github.io/documents/hb_cv.tex
+**/home/hb/Documents/hvbora.github.io/documents/hb_publications.tex
+(/home/hb/Documents/hvbora.github.io/documents/hb_publications.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -429,8 +429,8 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box60
-) (./hb_cv.aux)
-\openout1 = `hb_cv.aux'.
+) (./hb_publications.aux)
+\openout1 = `hb_publications.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 97.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 97.
@@ -483,9 +483,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
- (./hb_cv.out) (./hb_cv.out)
+ (./hb_publications.out) (./hb_publications.out)
 \@outlinefile=\write3
-\openout3 = `hb_cv.out'.
+\openout3 = `hb_publications.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -572,41 +572,29 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 (Font)              scaled to size 6.1pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 104.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 121.
+(Font)              scaled to size 14.4pt on input line 122.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 124.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.304 \end{SectionTable}
-                         [2]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.411 \end{SectionTable}
-                         [3]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.415 \end{document}
-                     [4] (./hb_cv.aux)
-Package rerunfilecheck Info: File `hb_cv.out' has not changed.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./hb_publications.aux)
+Package rerunfilecheck Info: File `hb_publications.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16042 strings out of 478287
- 240187 string characters out of 5849290
- 527037 words of memory out of 5000000
- 33999 multiletter control sequences out of 15000+600000
- 506734 words of font info for 90 fonts, out of 8000000 for 9000
+ 16027 strings out of 478287
+ 240244 string characters out of 5849290
+ 516832 words of memory out of 5000000
+ 33992 multiletter control sequences out of 15000+600000
+ 506409 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,325b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,284b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txbsys.pfb>
-Output written on hb_cv.pdf (4 pages, 266865 bytes).
+Output written on hb_publications.pdf (1 page, 230557 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
