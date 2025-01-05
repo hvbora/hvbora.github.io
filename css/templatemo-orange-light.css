@@ -43,6 +43,7 @@ h2 {
 
 
 
+
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -121,9 +122,10 @@ h2 {
 
 .accent {
   font-family: "Proxima Bold", Helvetica, Arial;
-  line-height: 20px;
+  line-height: 32px;
   color: #ef9273;
   padding-bottom: 3px;
+  padding-top: 3px
 }
 
 .bold {
